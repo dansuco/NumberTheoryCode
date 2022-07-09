@@ -1,4 +1,4 @@
-#Tenemos codificado el teorema de gauss de que en una sussecion de enteros positivos solo hay un ...
+#Dados m numeros enteros consecutivos a, a+1, a+2, ... a+m-1 y se A otro entero, entonces existe un unico elemento de la sucesion que es congruente con A al modulo de m
 lista = range(0, 5)
 m = len(lista)
 A = -13
