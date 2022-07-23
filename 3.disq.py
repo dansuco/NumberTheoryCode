@@ -1,5 +1,3 @@
-
-
 def main():
     print("TEOREMA:")
     print("Dados m numeros enteros consecutivos a, a+1, a+2, ... a+m-1 y se A otro entero")
@@ -11,7 +9,6 @@ def main():
     numeros = [(i-A)/m for i in range(a, a+m)]
     congruentes = list(filter(lambda x: ((x*m)+A)%m ==A%m,numeros))
     print("en el intervalo : ({}, {}), el numero que es congruente con {} modulo {} es {}".format(a, a+m,A, m, congruentes[0]*m+A))
-
 
 if __name__=="__main__":
     main()
