@@ -30,5 +30,8 @@ elif a!=b and a!=0 and b!=0 and (a1%b1 == 0 or b1%a1 ==0):
     x = (a1-mod)/b1
     print(a1, "=", b1, "*", int(x), "+ 0")
     print("el maximo comun divisor de {} y {} es {}".format(a, b, b))    
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e50b8bdebe3b471c85e5e685b870aa89309ac6b4
